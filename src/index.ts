@@ -189,7 +189,7 @@ bottomRight.addEventListener('click', (event) => {
 function check() {
   if (playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1]) good = false;
 
-  if (playerOrder.length == 3 && good) {
+  if (playerOrder.length == 20 && good) {
     winGame();
   }
 
